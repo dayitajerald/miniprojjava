@@ -96,7 +96,7 @@
                         <Font size="20.0" />
                      </font>
                   </Button>
-                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="13.0" prefHeight="110.0" prefWidth="446.0" style="-fx-font-family: impact; -fx-background-color: white;" text="To Do List">
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="13.0" prefHeight="85.0" prefWidth="446.0" style="-fx-font-family: impact; -fx-background-color: white;" text="To Do List">
                      <font>
                         <Font size="43.0" />
                      </font>
@@ -131,15 +131,29 @@
                         <Font size="16.0" />
                      </font>
                   </CheckBox>
-                  <Label alignment="CENTER" layoutY="14.0" prefHeight="110.0" prefWidth="446.0" style="-fx-font-family: impact; -fx-background-color: white;" text="check list">
+                  <Label alignment="CENTER" layoutY="14.0" prefHeight="85.0" prefWidth="446.0" style="-fx-font-family: impact; -fx-background-color: white;" text="check list">
                      <font>
                         <Font size="43.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="pri2" layoutX="223.0" layoutY="152.0" text="Priority" />
+                  <Label fx:id="pri3" layoutX="223.0" layoutY="189.0" text="Priority" />
+                  <Label fx:id="pri4" layoutX="223.0" layoutY="230.0" text="Priority" />
+                  <Label fx:id="pri5" layoutX="223.0" layoutY="273.0" text="Priority" />
+                  <Label fx:id="pri6" layoutX="223.0" layoutY="317.0" text="Priority" />
+                  <Label layoutX="67.0" layoutY="109.0" text="Name of Task">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="214.0" layoutY="109.0" text="Priority">
+                     <font>
+                        <Font size="21.0" />
                      </font>
                   </Label>
           </children>
         </AnchorPane>
       </items>
     </SplitPane>
-      <Label text="Label" />
   </children>
 </VBox>
